@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/simulation/modelsim
+vregfile
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1667513542
+!i10b 1
+!s100 ?S[[c2IEiBWSeF4SJViCL2
+ITAA;nibZl`Q3L62n[iJ^a0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 regfile_sv_unit
+S1
+R0
+w1667513402
+8C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/regfile.sv
+FC:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/regfile.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1667513542.000000
+!s107 C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto|C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/regfile.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work {+incdir+C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto}
+Z8 tCvgOpt 0
+vTestregfile
+R1
+R2
+!i10b 1
+!s100 =E32`>^PRIb?dP@4IbV9Y3
+IZC;fd84aaL^P>FzS]nMI00
+R3
+!s105 Testregfile_sv_unit
+S1
+R0
+w1667513466
+8C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/Testregfile.sv
+FC:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/Testregfile.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/Testregfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto|C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/Testregfile.sv|
+!i113 1
+R6
+R7
+R8
+n@testregfile

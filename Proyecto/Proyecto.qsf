@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA5F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY Proyecto
+set_global_assignment -name TOP_LEVEL_ENTITY regfile
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 21.1.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:50:50  OCTOBER 29, 2022"
 set_global_assignment -name LAST_QUARTUS_VERSION "21.1.1 Lite Edition"
@@ -52,9 +52,6 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name SYSTEMVERILOG_FILE DataMemory.sv
 set_global_assignment -name MIF_FILE Memoria_ROM.mif
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
@@ -62,4 +59,24 @@ set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name QIP_FILE Memoria_ROM.qip
+set_global_assignment -name SYSTEMVERILOG_FILE Counter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE TestRom.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RomCompleta.sv
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH Testregfile -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME TestRom -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id TestRom
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME TestRom -section_id TestRom
+set_global_assignment -name HEX_FILE Memoria_Int.hex
+set_global_assignment -name QIP_FILE Memoria_Int.qip
+set_global_assignment -name SYSTEMVERILOG_FILE regfile.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Testregfile.sv
+set_global_assignment -name EDA_TEST_BENCH_NAME Testregfile -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Testregfile
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Testregfile -section_id Testregfile
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name EDA_TEST_BENCH_FILE TestRom.sv -section_id TestRom
+set_global_assignment -name EDA_TEST_BENCH_FILE Testregfile.sv -section_id Testregfile
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
