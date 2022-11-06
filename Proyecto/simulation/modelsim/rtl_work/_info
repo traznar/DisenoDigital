@@ -7,53 +7,178 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/simulation/modelsim
-vregfile
+Z0 dE:/DisenoDigital/Proyecto/simulation/modelsim
+vcondcheck
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1667513542
+Z2 !s110 1667669950
 !i10b 1
-!s100 ?S[[c2IEiBWSeF4SJViCL2
-ITAA;nibZl`Q3L62n[iJ^a0
+!s100 KC8n2j1_GUgkRkZj@RVdY0
+I;1Aec=49^IK2P`ffQi>1L1
 Z3 VDg1SIo80bB@j0V0VzS_@n1
-!s105 regfile_sv_unit
+!s105 condcheck_sv_unit
 S1
 R0
-w1667513402
-8C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/regfile.sv
-FC:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/regfile.sv
+w1667665919
+8E:/DisenoDigital/Proyecto/condcheck.sv
+FE:/DisenoDigital/Proyecto/condcheck.sv
 L0 1
 Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1667513542.000000
-!s107 C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/regfile.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto|C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/regfile.sv|
+Z5 !s108 1667669950.000000
+!s107 E:/DisenoDigital/Proyecto/condcheck.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/DisenoDigital/Proyecto|E:/DisenoDigital/Proyecto/condcheck.sv|
 !i113 1
 Z6 o-sv -work work
-Z7 !s92 -sv -work work {+incdir+C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto}
+Z7 !s92 -sv -work work +incdir+E:/DisenoDigital/Proyecto
 Z8 tCvgOpt 0
+vcondlogic
+R1
+R2
+!i10b 1
+!s100 5Ahj::SE0Mc>;<X1?Km]g2
+IALWbO0LlnX?XgPSOLdAWU1
+R3
+!s105 condlogic_sv_unit
+S1
+R0
+w1667665947
+8E:/DisenoDigital/Proyecto/condlogic.sv
+FE:/DisenoDigital/Proyecto/condlogic.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/DisenoDigital/Proyecto/condlogic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/DisenoDigital/Proyecto|E:/DisenoDigital/Proyecto/condlogic.sv|
+!i113 1
+R6
+R7
+R8
+vcontroller
+R1
+R2
+!i10b 1
+!s100 T0EmjLD`Ba?HddF]gKKQe1
+IK`T=JP311Hg9PamaK4DYG1
+R3
+!s105 controller_sv_unit
+S1
+R0
+w1667665329
+8E:/DisenoDigital/Proyecto/controller.sv
+FE:/DisenoDigital/Proyecto/controller.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/DisenoDigital/Proyecto/controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/DisenoDigital/Proyecto|E:/DisenoDigital/Proyecto/controller.sv|
+!i113 1
+R6
+R7
+R8
+vdecoder
+R1
+R2
+!i10b 1
+!s100 `ObPH`bjLMe6LM>d6Y4a]2
+Ij;9[UHl5Z>KSN2T59]h:[3
+R3
+!s105 decoder_sv_unit
+S1
+R0
+w1667666124
+8E:/DisenoDigital/Proyecto/decoder.sv
+FE:/DisenoDigital/Proyecto/decoder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/DisenoDigital/Proyecto/decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/DisenoDigital/Proyecto|E:/DisenoDigital/Proyecto/decoder.sv|
+!i113 1
+R6
+R7
+R8
+vflopenr
+R1
+R2
+!i10b 1
+!s100 Jj494[oRc02Kd?3b8T5_d2
+IC<H9UY9CE:YCmWgJjl[Cz2
+R3
+!s105 flopenr_sv_unit
+S1
+R0
+w1667665814
+8E:/DisenoDigital/Proyecto/flopenr.sv
+FE:/DisenoDigital/Proyecto/flopenr.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/DisenoDigital/Proyecto/flopenr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/DisenoDigital/Proyecto|E:/DisenoDigital/Proyecto/flopenr.sv|
+!i113 1
+R6
+R7
+R8
+vTestController
+R1
+!s110 1667669969
+!i10b 1
+!s100 g<B7n`1h;g_ACHUFCei_N1
+IMO@iCzhbX=LzHPc`8@WMP0
+R3
+!s105 TestController_sv_unit
+S1
+R0
+w1667669898
+8E:/DisenoDigital/Proyecto/TestController.sv
+FE:/DisenoDigital/Proyecto/TestController.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1667669969.000000
+!s107 E:/DisenoDigital/Proyecto/TestController.sv|
+!s90 -reportprogress|300|-work|work|E:/DisenoDigital/Proyecto/TestController.sv|
+!i113 1
+o-work work
+R8
+n@test@controller
 vTestregfile
 R1
 R2
 !i10b 1
-!s100 =E32`>^PRIb?dP@4IbV9Y3
-IZC;fd84aaL^P>FzS]nMI00
+!s100 aII_koWI>I5@5RazCPnRJ1
+IGz5?CV=i5W?AfaEHD@2JK2
 R3
 !s105 Testregfile_sv_unit
 S1
 R0
-w1667513466
-8C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/Testregfile.sv
-FC:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/Testregfile.sv
+w1667513829
+8E:/DisenoDigital/Proyecto/Testregfile.sv
+FE:/DisenoDigital/Proyecto/Testregfile.sv
 L0 2
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/Testregfile.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto|C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/Testregfile.sv|
+!s107 E:/DisenoDigital/Proyecto/Testregfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/DisenoDigital/Proyecto|E:/DisenoDigital/Proyecto/Testregfile.sv|
 !i113 1
 R6
 R7

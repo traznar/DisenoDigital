@@ -1,4 +1,4 @@
-# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# Reading D:/Nueva carpeta/modelsim_ase/tcl/vsim/pref.tcl
 # do Proyecto_run_msim_rtl_verilog.do
 # if ![file isdirectory verilog_libs] {
 # 	file mkdir verilog_libs
@@ -9,11 +9,11 @@
 # vmap altera_ver ./verilog_libs/altera_ver
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap altera_ver ./verilog_libs/altera_ver 
-# Copying C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Copying D:/Nueva carpeta/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:11:47 on Nov 03,2022
+# Start time: 11:38:53 on Nov 05,2022
 # vlog -reportprogress 300 -vlog01compat -work altera_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -95,7 +95,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 16:11:49 on Nov 03,2022, Elapsed time: 0:00:02
+# End time: 11:38:54 on Nov 05,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -106,7 +106,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:11:50 on Nov 03,2022
+# Start time: 11:38:54 on Nov 05,2022
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -170,7 +170,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 16:11:50 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 11:38:54 on Nov 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -181,7 +181,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:11:51 on Nov 03,2022
+# Start time: 11:38:55 on Nov 05,2022
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -223,7 +223,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 16:11:52 on Nov 03,2022, Elapsed time: 0:00:01
+# End time: 11:38:55 on Nov 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -234,7 +234,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:11:52 on Nov 03,2022
+# Start time: 11:38:55 on Nov 05,2022
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -364,7 +364,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 16:11:55 on Nov 03,2022, Elapsed time: 0:00:03
+# End time: 11:38:57 on Nov 05,2022, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -375,7 +375,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:11:56 on Nov 03,2022
+# Start time: 11:38:58 on Nov 05,2022
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -458,7 +458,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 16:11:58 on Nov 03,2022, Elapsed time: 0:00:02
+# End time: 11:38:59 on Nov 05,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
@@ -469,7 +469,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:11:59 on Nov 03,2022
+# Start time: 11:38:59 on Nov 05,2022
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -483,19 +483,19 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 16:12:05 on Nov 03,2022, Elapsed time: 0:00:06
+# End time: 11:39:02 on Nov 05,2022, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 20
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:12:05 on Nov 03,2022
+# Start time: 11:39:02 on Nov 05,2022
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 16:12:08 on Nov 03,2022, Elapsed time: 0:00:03
+# End time: 11:39:03 on Nov 05,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/cyclonev_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:12:08 on Nov 03,2022
+# Start time: 11:39:03 on Nov 05,2022
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/cyclonev_atoms.v 
 # -- Compiling UDP CYCLONEV_PRIM_DFFE
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS
@@ -635,7 +635,7 @@
 # 	cyclonev_mem_phy
 # 	cyclonev_oscillator
 # 	cyclonev_hps_interface_fpga2sdram
-# End time: 16:12:09 on Nov 03,2022, Elapsed time: 0:00:01
+# End time: 11:39:04 on Nov 05,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_hssi_ver
@@ -646,15 +646,15 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:12:11 on Nov 03,2022
+# Start time: 11:39:04 on Nov 05,2022
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 16:12:14 on Nov 03,2022, Elapsed time: 0:00:03
+# End time: 11:39:06 on Nov 05,2022, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:12:14 on Nov 03,2022
+# Start time: 11:39:06 on Nov 05,2022
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
 # -- Compiling module cyclonev_hssi_8g_pcs_aggregate
 # -- Compiling module cyclonev_hssi_8g_rx_pcs
@@ -754,7 +754,7 @@
 # 	arriav_hssi_avmm_interface
 # 	arriav_hssi_pma_hi_pmaif
 # 	arriav_hssi_pma_hi_xcvrif
-# End time: 16:12:15 on Nov 03,2022, Elapsed time: 0:00:01
+# End time: 11:39:06 on Nov 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_pcie_hip_ver
@@ -765,7 +765,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:12:16 on Nov 03,2022
+# Start time: 11:39:07 on Nov 05,2022
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -775,18 +775,18 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 16:12:21 on Nov 03,2022, Elapsed time: 0:00:05
+# End time: 11:39:09 on Nov 05,2022, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 12
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:12:21 on Nov 03,2022
+# Start time: 11:39:09 on Nov 05,2022
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
 # -- Compiling module cyclonev_hd_altpe2_hip_top
 # -- Compiling module arriav_hd_altpe2_hip_top
 # 
 # Top level modules:
 # 	cyclonev_hd_altpe2_hip_top
-# End time: 16:12:21 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 11:39:10 on Nov 05,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -798,49 +798,113 @@
 # vmap work rtl_work 
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+C:/Users/leona/Documents/TEC/8\ Semestre/Taller\ Digital/Proyecto {C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/regfile.sv}
+# vlog -sv -work work +incdir+E:/DisenoDigital/Proyecto {E:/DisenoDigital/Proyecto/controller.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:12:22 on Nov 03,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto" C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/regfile.sv 
-# -- Compiling module regfile
+# Start time: 11:39:10 on Nov 05,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/DisenoDigital/Proyecto" E:/DisenoDigital/Proyecto/controller.sv 
+# -- Compiling module controller
 # 
 # Top level modules:
-# 	regfile
-# End time: 16:12:22 on Nov 03,2022, Elapsed time: 0:00:00
+# 	controller
+# End time: 11:39:10 on Nov 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/DisenoDigital/Proyecto {E:/DisenoDigital/Proyecto/decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:39:10 on Nov 05,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/DisenoDigital/Proyecto" E:/DisenoDigital/Proyecto/decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 11:39:10 on Nov 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/DisenoDigital/Proyecto {E:/DisenoDigital/Proyecto/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:39:10 on Nov 05,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/DisenoDigital/Proyecto" E:/DisenoDigital/Proyecto/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 11:39:10 on Nov 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/DisenoDigital/Proyecto {E:/DisenoDigital/Proyecto/condcheck.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:39:10 on Nov 05,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/DisenoDigital/Proyecto" E:/DisenoDigital/Proyecto/condcheck.sv 
+# -- Compiling module condcheck
+# 
+# Top level modules:
+# 	condcheck
+# End time: 11:39:10 on Nov 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/DisenoDigital/Proyecto {E:/DisenoDigital/Proyecto/condlogic.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:39:10 on Nov 05,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/DisenoDigital/Proyecto" E:/DisenoDigital/Proyecto/condlogic.sv 
+# -- Compiling module condlogic
+# 
+# Top level modules:
+# 	condlogic
+# End time: 11:39:10 on Nov 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -sv -work work +incdir+C:/Users/leona/Documents/TEC/8\ Semestre/Taller\ Digital/Proyecto {C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/Testregfile.sv}
+# vlog -sv -work work +incdir+E:/DisenoDigital/Proyecto {E:/DisenoDigital/Proyecto/Testregfile.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:12:22 on Nov 03,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto" C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/Testregfile.sv 
+# Start time: 11:39:10 on Nov 05,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/DisenoDigital/Proyecto" E:/DisenoDigital/Proyecto/Testregfile.sv 
 # -- Compiling module Testregfile
 # 
 # Top level modules:
 # 	Testregfile
-# End time: 16:12:22 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 11:39:10 on Nov 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Testregfile
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Testregfile 
-# Start time: 16:12:22 on Nov 03,2022
+# Start time: 11:39:10 on Nov 05,2022
 # Loading sv_std.std
 # Loading work.Testregfile
-# Loading work.regfile
-# ** Warning: (vsim-3017) C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/Testregfile.sv(8): [TFMPC] - Too few port connections. Expected 9, found 8.
-#    Time: 0 ps  Iteration: 0  Instance: /Testregfile/registros File: C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/regfile.sv
-# ** Warning: (vsim-3015) C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/Testregfile.sv(8): [PCDPC] - Port size (1) does not match connection size (4) for port 'we3'. The port definition is at: C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/regfile.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Testregfile/registros File: C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/regfile.sv
-# ** Warning: (vsim-3015) C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/Testregfile.sv(8): [PCDPC] - Port size (4) does not match connection size (32) for port 'wa3'. The port definition is at: C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/regfile.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /Testregfile/registros File: C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/regfile.sv
-# ** Warning: (vsim-3722) C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/Testregfile.sv(8): [TFMPC] - Missing connection for port 'rd2'.
+# ** Error: (vsim-3033) E:/DisenoDigital/Proyecto/Testregfile.sv(8): Instantiation of 'regfile' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /Testregfile File: E:/DisenoDigital/Proyecto/Testregfile.sv
+#         Searched libraries:
+#             E:/DisenoDigital/Proyecto/simulation/modelsim/verilog_libs/altera_ver
+#             E:/DisenoDigital/Proyecto/simulation/modelsim/verilog_libs/lpm_ver
+#             E:/DisenoDigital/Proyecto/simulation/modelsim/verilog_libs/sgate_ver
+#             E:/DisenoDigital/Proyecto/simulation/modelsim/verilog_libs/altera_mf_ver
+#             E:/DisenoDigital/Proyecto/simulation/modelsim/verilog_libs/altera_lnsim_ver
+#             E:/DisenoDigital/Proyecto/simulation/modelsim/verilog_libs/cyclonev_ver
+#             E:/DisenoDigital/Proyecto/simulation/modelsim/verilog_libs/cyclonev_hssi_ver
+#             E:/DisenoDigital/Proyecto/simulation/modelsim/verilog_libs/cyclonev_pcie_hip_ver
+#             E:/DisenoDigital/Proyecto/simulation/modelsim/rtl_work
+#             E:/DisenoDigital/Proyecto/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Proyecto_run_msim_rtl_verilog.do PAUSED at line 56
+vlog -reportprogress 300 -work work E:/DisenoDigital/Proyecto/TestController.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:39:29 on Nov 05,2022
+# vlog -reportprogress 300 -work work E:/DisenoDigital/Proyecto/TestController.sv 
+# -- Compiling module TestController
 # 
-# add wave *
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run -all
+# Top level modules:
+# 	TestController
+# End time: 11:39:29 on Nov 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.TestController
+# vsim work.TestController 
+# Start time: 11:39:10 on Nov 05,2022
+# Loading sv_std.std
+# Loading work.TestController
+# Loading work.controller
+# Loading work.decoder
+# Loading work.condlogic
+# Loading work.flopenr
+# Loading work.condcheck
+add wave -position end sim:/TestController/*
+run -all
 # Break key hit
-# Break in Module Testregfile at C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/Testregfile.sv line 31
-# End time: 16:58:23 on Nov 03,2022, Elapsed time: 0:46:01
-# Errors: 0, Warnings: 4
+# Simulation stop requested.
+# End time: 11:54:02 on Nov 05,2022, Elapsed time: 0:14:52
+# Errors: 1, Warnings: 0

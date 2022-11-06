@@ -45,9 +45,13 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -sv -work work +incdir+C:/Users/leona/Documents/TEC/8\ Semestre/Taller\ Digital/Proyecto {C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/regfile.sv}
+vlog -sv -work work +incdir+E:/DisenoDigital/Proyecto {E:/DisenoDigital/Proyecto/controller.sv}
+vlog -sv -work work +incdir+E:/DisenoDigital/Proyecto {E:/DisenoDigital/Proyecto/decoder.sv}
+vlog -sv -work work +incdir+E:/DisenoDigital/Proyecto {E:/DisenoDigital/Proyecto/flopenr.sv}
+vlog -sv -work work +incdir+E:/DisenoDigital/Proyecto {E:/DisenoDigital/Proyecto/condcheck.sv}
+vlog -sv -work work +incdir+E:/DisenoDigital/Proyecto {E:/DisenoDigital/Proyecto/condlogic.sv}
 
-vlog -sv -work work +incdir+C:/Users/leona/Documents/TEC/8\ Semestre/Taller\ Digital/Proyecto {C:/Users/leona/Documents/TEC/8 Semestre/Taller Digital/Proyecto/Testregfile.sv}
+vlog -sv -work work +incdir+E:/DisenoDigital/Proyecto {E:/DisenoDigital/Proyecto/Testregfile.sv}
 
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Testregfile
 
