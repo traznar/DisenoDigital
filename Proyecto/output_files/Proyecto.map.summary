@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Sat Nov  5 11:38:27 2022
+Analysis & Synthesis Status : Successful - Mon Nov  7 16:35:10 2022
 Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Lite Edition
 Revision Name : Proyecto
-Top-level Entity Name : controller
+Top-level Entity Name : extension
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 4
-Total pins : 37
+Total registers : 0
+Total pins : 58
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

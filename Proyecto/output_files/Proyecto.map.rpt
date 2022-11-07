@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Proyecto
-Sat Nov  5 11:38:27 2022
+Mon Nov  7 16:35:10 2022
 Quartus Prime Version 21.1.1 Build 850 06/23/2022 SJ Lite Edition
 
 
@@ -14,12 +14,11 @@ Quartus Prime Version 21.1.1 Build 850 06/23/2022 SJ Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Parameter Settings for User Entity Instance: condlogic:cl|flopenr:flagreg1
- 10. Parameter Settings for User Entity Instance: condlogic:cl|flopenr:flagreg0
- 11. Post-Synthesis Netlist Statistics for Top Partition
- 12. Elapsed Time Per Partition
- 13. Analysis & Synthesis Messages
- 14. Analysis & Synthesis Suppressed Messages
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Post-Synthesis Netlist Statistics for Top Partition
+ 11. Elapsed Time Per Partition
+ 12. Analysis & Synthesis Messages
+ 13. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -46,14 +45,14 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sat Nov  5 11:38:27 2022       ;
+; Analysis & Synthesis Status     ; Successful - Mon Nov  7 16:35:10 2022       ;
 ; Quartus Prime Version           ; 21.1.1 Build 850 06/23/2022 SJ Lite Edition ;
 ; Revision Name                   ; Proyecto                                    ;
-; Top-level Entity Name           ; controller                                  ;
+; Top-level Entity Name           ; extension                                   ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 4                                           ;
-; Total pins                      ; 37                                          ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 58                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -72,7 +71,7 @@ https://fpgasoftware.intel.com/eula.
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
-; Top-level entity name                                                           ; controller         ; Proyecto           ;
+; Top-level entity name                                                           ; extension          ; Proyecto           ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -162,25 +161,20 @@ https://fpgasoftware.intel.com/eula.
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 4           ;
+; Maximum used               ; 1           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                ;
-+----------------------------------+-----------------+------------------------------+-----------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path            ; Library ;
-+----------------------------------+-----------------+------------------------------+-----------------------------------------+---------+
-; controller.sv                    ; yes             ; User SystemVerilog HDL File  ; E:/DisenoDigital/Proyecto/controller.sv ;         ;
-; decoder.sv                       ; yes             ; User SystemVerilog HDL File  ; E:/DisenoDigital/Proyecto/decoder.sv    ;         ;
-; flopenr.sv                       ; yes             ; User SystemVerilog HDL File  ; E:/DisenoDigital/Proyecto/flopenr.sv    ;         ;
-; condcheck.sv                     ; yes             ; User SystemVerilog HDL File  ; E:/DisenoDigital/Proyecto/condcheck.sv  ;         ;
-; condlogic.sv                     ; yes             ; User SystemVerilog HDL File  ; E:/DisenoDigital/Proyecto/condlogic.sv  ;         ;
-+----------------------------------+-----------------+------------------------------+-----------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                               ;
++----------------------------------+-----------------+------------------------------+----------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path           ; Library ;
++----------------------------------+-----------------+------------------------------+----------------------------------------+---------+
+; extension.sv                     ; yes             ; User SystemVerilog HDL File  ; E:/DisenoDigital/Proyecto/extension.sv ;         ;
++----------------------------------+-----------------+------------------------------+----------------------------------------+---------+
 
 
 +---------------------------------------------------------------+
@@ -188,40 +182,35 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------------+
 ; Resource                                    ; Usage           ;
 +---------------------------------------------+-----------------+
-; Estimate of Logic utilization (ALMs needed) ; 10              ;
+; Estimate of Logic utilization (ALMs needed) ; 13              ;
 ;                                             ;                 ;
-; Combinational ALUT usage for logic          ; 15              ;
+; Combinational ALUT usage for logic          ; 26              ;
 ;     -- 7 input functions                    ; 0               ;
-;     -- 6 input functions                    ; 4               ;
-;     -- 5 input functions                    ; 4               ;
-;     -- 4 input functions                    ; 3               ;
-;     -- <=3 input functions                  ; 4               ;
+;     -- 6 input functions                    ; 0               ;
+;     -- 5 input functions                    ; 0               ;
+;     -- 4 input functions                    ; 4               ;
+;     -- <=3 input functions                  ; 22              ;
 ;                                             ;                 ;
-; Dedicated logic registers                   ; 4               ;
+; Dedicated logic registers                   ; 0               ;
 ;                                             ;                 ;
-; I/O pins                                    ; 37              ;
+; I/O pins                                    ; 58              ;
 ;                                             ;                 ;
 ; Total DSP Blocks                            ; 0               ;
 ;                                             ;                 ;
-; Maximum fan-out node                        ; Instr[26]~input ;
-; Maximum fan-out                             ; 10              ;
-; Total fan-out                               ; 130             ;
-; Average fan-out                             ; 1.40            ;
+; Maximum fan-out node                        ; ImmSrc[1]~input ;
+; Maximum fan-out                             ; 26              ;
+; Total fan-out                               ; 156             ;
+; Average fan-out                             ; 1.10            ;
 +---------------------------------------------+-----------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                          ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                       ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------+-------------+--------------+
-; |controller                ; 15 (0)              ; 4 (0)                     ; 0                 ; 0          ; 37   ; 0            ; |controller                               ; controller  ; work         ;
-;    |condlogic:cl|          ; 11 (8)              ; 4 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |controller|condlogic:cl                  ; condlogic   ; work         ;
-;       |condcheck:cc|       ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |controller|condlogic:cl|condcheck:cc     ; condcheck   ; work         ;
-;       |flopenr:flagreg0|   ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |controller|condlogic:cl|flopenr:flagreg0 ; flopenr     ; work         ;
-;       |flopenr:flagreg1|   ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |controller|condlogic:cl|flopenr:flagreg1 ; flopenr     ; work         ;
-;    |decoder:dec|           ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |controller|decoder:dec                   ; decoder     ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------+-------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                    ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; |extension                 ; 26 (26)             ; 0 (0)                     ; 0                 ; 0          ; 58   ; 0            ; |extension          ; extension   ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -230,34 +219,23 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 4     ;
+; Total registers                              ; 0     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 4     ;
+; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 4     ;
+; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: condlogic:cl|flopenr:flagreg1 ;
-+----------------+-------+---------------------------------------------------+
-; Parameter Name ; Value ; Type                                              ;
-+----------------+-------+---------------------------------------------------+
-; WIDTH          ; 2     ; Signed Integer                                    ;
-+----------------+-------+---------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: condlogic:cl|flopenr:flagreg0 ;
-+----------------+-------+---------------------------------------------------+
-; Parameter Name ; Value ; Type                                              ;
-+----------------+-------+---------------------------------------------------+
-; WIDTH          ; 2     ; Signed Integer                                    ;
-+----------------+-------+---------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |extension|Mux3            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 
 
 +-----------------------------------------------------+
@@ -265,20 +243,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 4                           ;
-;     ENA CLR           ; 4                           ;
-; arriav_lcell_comb     ; 17                          ;
-;     normal            ; 17                          ;
-;         1 data inputs ; 2                           ;
-;         2 data inputs ; 2                           ;
-;         3 data inputs ; 2                           ;
-;         4 data inputs ; 3                           ;
-;         5 data inputs ; 4                           ;
-;         6 data inputs ; 4                           ;
-; boundary_port         ; 37                          ;
+; arriav_lcell_comb     ; 26                          ;
+;     normal            ; 26                          ;
+;         2 data inputs ; 16                          ;
+;         3 data inputs ; 6                           ;
+;         4 data inputs ; 4                           ;
+; boundary_port         ; 58                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 1.98                        ;
+; Max LUT depth         ; 1.00                        ;
+; Average LUT depth     ; 1.00                        ;
 +-----------------------+-----------------------------+
 
 
@@ -297,7 +270,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 21.1.1 Build 850 06/23/2022 SJ Lite Edition
-    Info: Processing started: Sat Nov  5 11:38:19 2022
+    Info: Processing started: Mon Nov  7 16:35:02 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Proyecto -c Proyecto
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -329,31 +302,23 @@ Info (12021): Found 1 design units, including 1 entities, in source file condlog
     Info (12023): Found entity 1: condlogic File: E:/DisenoDigital/Proyecto/condlogic.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file testcontroller.sv
     Info (12023): Found entity 1: TestController File: E:/DisenoDigital/Proyecto/TestController.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file extension.sv
+    Info (12023): Found entity 1: extension File: E:/DisenoDigital/Proyecto/extension.sv Line: 1
 Warning (10236): Verilog HDL Implicit Net warning at TestController.sv(14): created implicit net for "PCSrc" File: E:/DisenoDigital/Proyecto/TestController.sv Line: 14
-Info (12127): Elaborating entity "controller" for the top level hierarchy
-Info (12128): Elaborating entity "decoder" for hierarchy "decoder:dec" File: E:/DisenoDigital/Proyecto/controller.sv Line: 15
-Info (12128): Elaborating entity "condlogic" for hierarchy "condlogic:cl" File: E:/DisenoDigital/Proyecto/controller.sv Line: 16
-Info (12128): Elaborating entity "flopenr" for hierarchy "condlogic:cl|flopenr:flagreg1" File: E:/DisenoDigital/Proyecto/condlogic.sv Line: 13
-Info (12128): Elaborating entity "condcheck" for hierarchy "condlogic:cl|condcheck:cc" File: E:/DisenoDigital/Proyecto/condlogic.sv Line: 18
+Info (12127): Elaborating entity "extension" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (144001): Generated suppressed messages file E:/DisenoDigital/Proyecto/output_files/Proyecto.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 5 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "Instr[16]" File: E:/DisenoDigital/Proyecto/controller.sv Line: 2
-    Warning (15610): No output dependent on input pin "Instr[17]" File: E:/DisenoDigital/Proyecto/controller.sv Line: 2
-    Warning (15610): No output dependent on input pin "Instr[18]" File: E:/DisenoDigital/Proyecto/controller.sv Line: 2
-    Warning (15610): No output dependent on input pin "Instr[19]" File: E:/DisenoDigital/Proyecto/controller.sv Line: 2
-    Warning (15610): No output dependent on input pin "Instr[21]" File: E:/DisenoDigital/Proyecto/controller.sv Line: 2
-Info (21057): Implemented 56 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 84 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 26 input pins
-    Info (21059): Implemented 11 output pins
-    Info (21061): Implemented 19 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 4835 megabytes
-    Info: Processing ended: Sat Nov  5 11:38:27 2022
+    Info (21059): Implemented 32 output pins
+    Info (21061): Implemented 26 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4823 megabytes
+    Info: Processing ended: Mon Nov  7 16:35:10 2022
     Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:20
+    Info: Total CPU time (on all processors): 00:00:19
 
 
 +------------------------------------------+

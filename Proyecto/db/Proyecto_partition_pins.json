@@ -4,19 +4,135 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "RegSrc[0]",
+					"name" : "ExtImm[0]",
 					"strict" : false
 				},
 				{
-					"name" : "RegSrc[1]",
+					"name" : "ExtImm[1]",
 					"strict" : false
 				},
 				{
-					"name" : "RegWrite",
+					"name" : "ExtImm[2]",
 					"strict" : false
 				},
 				{
-					"name" : "ImmSrc[0]",
+					"name" : "ExtImm[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[16]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[17]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[18]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[19]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[20]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[21]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[22]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[23]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[24]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[25]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[26]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[27]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[28]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[29]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[30]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtImm[31]",
+					"strict" : false
+				},
+				{
+					"name" : "Instr[0]",
 					"strict" : false
 				},
 				{
@@ -24,71 +140,51 @@
 					"strict" : false
 				},
 				{
-					"name" : "ALUSrc",
+					"name" : "Instr[1]",
 					"strict" : false
 				},
 				{
-					"name" : "ALUControl[0]",
+					"name" : "Instr[2]",
 					"strict" : false
 				},
 				{
-					"name" : "ALUControl[1]",
+					"name" : "Instr[3]",
 					"strict" : false
 				},
 				{
-					"name" : "MemWrite",
+					"name" : "Instr[4]",
 					"strict" : false
 				},
 				{
-					"name" : "MemtoReg",
+					"name" : "Instr[5]",
 					"strict" : false
 				},
 				{
-					"name" : "PCSrc",
+					"name" : "Instr[6]",
 					"strict" : false
 				},
 				{
-					"name" : "Instr[27]",
+					"name" : "Instr[7]",
 					"strict" : false
 				},
 				{
-					"name" : "Instr[20]",
+					"name" : "Instr[8]",
 					"strict" : false
 				},
 				{
-					"name" : "Instr[26]",
+					"name" : "ImmSrc[0]",
 					"strict" : false
 				},
 				{
-					"name" : "Instr[28]",
+					"name" : "Instr[9]",
 					"strict" : false
 				},
 				{
-					"name" : "Instr[29]",
+					"name" : "Instr[10]",
 					"strict" : false
 				},
 				{
-					"name" : "Instr[30]",
-					"strict" : false
-				},
-				{
-					"name" : "Instr[31]",
-					"strict" : false
-				},
-				{
-					"name" : "Instr[25]",
-					"strict" : false
-				},
-				{
-					"name" : "Instr[22]",
-					"strict" : false
-				},
-				{
-					"name" : "Instr[24]",
-					"strict" : false
-				},
-				{
-					"name" : "Instr[23]",
+					"name" : "Instr[11]",
 					"strict" : false
 				},
 				{
@@ -108,27 +204,35 @@
 					"strict" : false
 				},
 				{
-					"name" : "ALUFlags[2]",
+					"name" : "Instr[16]",
 					"strict" : false
 				},
 				{
-					"name" : "clk",
+					"name" : "Instr[17]",
 					"strict" : false
 				},
 				{
-					"name" : "reset",
+					"name" : "Instr[18]",
 					"strict" : false
 				},
 				{
-					"name" : "ALUFlags[1]",
+					"name" : "Instr[19]",
 					"strict" : false
 				},
 				{
-					"name" : "ALUFlags[3]",
+					"name" : "Instr[20]",
 					"strict" : false
 				},
 				{
-					"name" : "ALUFlags[0]",
+					"name" : "Instr[21]",
+					"strict" : false
+				},
+				{
+					"name" : "Instr[22]",
+					"strict" : false
+				},
+				{
+					"name" : "Instr[23]",
 					"strict" : false
 				}
 			]
